@@ -1,7 +1,7 @@
 # MockViewAI — Progress
 
 > **Cập nhật 09/11/2026 (chiều):** Đã có tương tác (B3), lưu Supabase (B4), đăng nhập + tiến độ riêng từng người (B5, đã test giả lập + test RLS ở database), kiểm tra DOI qua Edge Function (B6), 4 bài viết, trang nghiên cứu nhóm, trang chủ giao diện tối, (nút đăng nhập Google đã bỏ theo quyết định nhóm).
-> **Chưa có:** tài khoản thật nào trong Supabase (0 tài khoản, 0 dòng tiến độ) → chưa test A/B thật · chưa có link Vercel. Danh sách việc: mục NEXT bên dưới và `kiem-thu-va-demo.md`.
+> **Chưa có:** tài khoản thật nào trong Supabase (0 tài khoản, 0 dòng tiến độ) → chưa test A/B thật. Link Vercel: https://mockviewai.vercel.app (project `mockviewai` đã tạo 09/11, đang chờ bản deploy đầu tiên). Danh sách việc: mục NEXT bên dưới và `kiem-thu-va-demo.md`.
 
 ## 2026-11-08: Thêm trang "Nghiên cứu của nhóm" (nghien-cuu/)
 
@@ -102,7 +102,7 @@
 - 09/11: Thư viện tài liệu chỉ hiện 4 bài (Zielinska, Gomez, Wilkie + Santos); thêm sơ đồ trong trang tài liệu; thêm khai báo sử dụng AI theo quy chế MindX; giao diện tối cho trang chủ. Chiều 09/11: bỏ đăng nhập Google, chỉ giữ email.
 
 ## NEXT
-1. [Học viên] GitHub → Vercel → cập nhật Site URL / Redirect URLs trên Supabase bằng link Vercel; ghi link vào đây.
+1. [Học viên] Vercel: project `mockviewai` → https://mockviewai.vercel.app. Kiểm tra trang đã deploy, rồi cập nhật Site URL = https://mockviewai.vercel.app và Redirect URLs = https://mockviewai.vercel.app/** trên Supabase.
 2. [Học viên] Tạo A/B, chạy `kiem-thu-va-demo.md` trên link Vercel, chụp màn hình bằng chứng.
 3. [Nhóm] Xác nhận: nội dung 5 mục checklist · bảng khai báo AI · câu MVP (xây thêm tự đánh giá hay sửa câu, xem PRD mục 6) · Step 4 Crossref là bài Buổi 6.
 4. [Nhóm] Hỏi giảng viên về giới hạn 20% nội dung AI (quy chế IV.2.5) với môn Vibecode.
